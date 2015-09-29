@@ -1,0 +1,11 @@
+
+public class Gestionnaire extends Visiteur {
+
+	public Gestionnaire(){
+		
+	}
+	
+	public Gestionnaire(String nom, String email, String mdp){
+		Visiteur.setNom(nom);
+	}
+}
