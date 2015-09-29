@@ -2,7 +2,7 @@
 <jsp:include page="Header.jsp" />	
 	
 	<h1>Login</h1>
-	<form>
+	<form method="post" action="logination.jsp">
 
 		<div style="text-align:center">
 			<h4>
@@ -11,8 +11,9 @@
 			<h4>
 				Mot de passe: <input type="password" name="password">
 			</h4>
+			<input type="submit" value="Login" />
 		</div>
-
+       
 	</form>
 
 	<p>

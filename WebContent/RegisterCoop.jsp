@@ -3,7 +3,7 @@
 
 	<h2>Cr&eacute;ation d'un compte Gestionnaire de Coop.</h2>
 
-	<form>
+	<form method="post" action="registration.jsp">
 
 		<div style="text-align:center">
 			<p>

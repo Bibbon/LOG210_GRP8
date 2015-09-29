@@ -3,7 +3,7 @@
 
 	<h2>Cr&eacute;ation d'un compte &Eacute;tudiant</h2>
 
-	<form>
+	<form method="post" action="registration.jsp">
 
 		<div style="text-align:center">
 			<p>
@@ -17,15 +17,6 @@
 			</p>
 			<p>
 				Confirmez mot de passe: <input type="password" name="password2">
-			</p>
-		
-		<h4>Information sur la Coop</h4>
-		
-			<p>
-				Nom de la Coop: <input type="text" name="nomCoop">
-			</p>
-			<p>
-				Adresse: <input type="text" name="adresseCoop">
 			</p>
 		
 
